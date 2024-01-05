@@ -1,0 +1,20 @@
+{
+    "trailingComma": "all",
+    "tabWidth": 4,
+    "useTabs": true,
+    "semi": true,
+    "singleQuote": false,
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "printWidth": 120,
+
+    "overrides": [
+        {
+            "files" : "*.js",
+            "options": {
+                "parser": "babel"
+            }
+        }
+    ]
+}
